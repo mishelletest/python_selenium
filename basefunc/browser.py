@@ -123,6 +123,8 @@ class Browser(object):
 
         ''' navigate back to main window '''
         self.driver.switch_to.window(main_window)
+        
+        ''' all sleep can be replaced by explicit wait '''
         time.sleep(10)
         self.click_when_element_is_present(dict_vars['Create an Account button'])
 
