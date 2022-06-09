@@ -1,0 +1,2 @@
+def addlocalsettings(dict):
+    pass
