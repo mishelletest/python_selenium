@@ -96,7 +96,7 @@ class Browser(object):
         '''save the main window handle'''
         main_window = self.driver.current_window_handle
 
-        time.sleep(10)
+        time.sleep(1)
         ''' get the recapthca iframe then navigate to it '''
         frame = self.driver.find_element_by_xpath('//iframe[@title="reCAPTCHA"]')
         self.driver.switch_to.frame(frame)
