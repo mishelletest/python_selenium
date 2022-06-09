@@ -1,0 +1,7 @@
+pytest==7.0.1
+pytest-html==3.1.1
+pytest-xdist==2.4.0
+urllib3==1.26.7
+selenium==4.1.0
+#Pillow==8.4.0
+pytest-rerunfailures
