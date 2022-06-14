@@ -1,6 +1,6 @@
 ### Setup Steps:
 1. Download Python Version 3 
-2. pull intouch-ui-python in git
+2. pull python_selenium in git
 3. in the terminal run the following: 
 ```
 python3 -m venv VENV
