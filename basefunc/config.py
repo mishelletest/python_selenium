@@ -4,7 +4,7 @@ from basefunc.localconfig import addlocalsettings
 
 
 TEST_CONFIG = {
-   'server': 'https://test.crowdstreet.com/',
+   'server': 'https://test.x.com/',
     # 'driver': 'chrome headless',
     'driver':  'chrome',
 
